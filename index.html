@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rooster Grin Front End Dev Test</title>
+    <link href="styles/main.css" rel="stylesheet" type="text/css"></link>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"></link>
+  </head>
+  <body onscroll="loadAnimations()">
+    <div class="header">
+      <img src="assets/igniter-logo-white.png" alt="igniter-logo" class="igniter-logo-white"/>
+    </div>
+    <div class="carousel slide" id="myCarousel" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="assets/hero-img.jpg" alt="hero-img" class="hero-img img-responsive"/>
+        </div>
+        <div class="item">
+          <img src="assets/iStock-1.jpg" alt="stock-1" class="hero-img img-responsive"/>
+        </div>
+        <div class="item">
+          <img src="assets/iStock-2.jpg" alt="stock-2" class="hero-img img-responsive"/>
+        </div>
+      </div>
+      <div class="row hero-contents">
+        <div class="col-xs-6 col-xs-offset-2">
+          <h2 class="hero-img-title">Lorem Ipsum Lorem Ipsum</h2>
+          <button class="home-btn open-modal btn1" onclick="openModal()">Button</button>
+        </div>
+        <div class="col-xs-4">
+          <div class="envelope-container open-modal" onclick="openModal()">
+            <img src="assets/envelope-icon.svg" alt="envelope" class="img-responsive envelope"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row indicators">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+    </div>
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-2">
+        <div class="icon-container">
+          <img src="assets/page-icon.svg" alt="page-icon" class="page-icon"/>
+        </div>
+        <p class="icon-text">Lorem ipsum dolor sit amet, ac dis
+          arcu libero, pulvinar vitae lectus cursus.
+        </p>
+      </div>
+      <div class="col-xs-4 col-sm-4">
+        <div class="icon-container">
+          <img src="assets/page-icon.svg" alt="page-icon" class="page-icon"/>
+        </div>
+        <p class="icon-text">Lorem ipsum dolor sit amet, ac dis
+          arcu libero, pulvinar vitae lectus cursus.
+        </p>
+      </div>
+    </div><br><br>
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-2">
+        <div class="icon-container">
+          <img src="assets/page-icon.svg" alt="page-icon" class="page-icon"/>
+        </div>
+        <p class="icon-text">Lorem ipsum dolor sit amet, ac dis
+          arcu libero, pulvinar vitae lectus cursus.
+        </p>
+      </div>
+      <div class="col-xs-4">
+        <div class="icon-container">
+          <img src="assets/page-icon.svg" alt="page-icon" class="page-icon"/>
+        </div>
+        <p class="icon-text">Lorem ipsum dolor sit amet, ac dis
+          arcu libero, pulvinar vitae lectus cursus.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="page-break">
+          <div class="page-break-slant">
+            <p class="page-break-text text-center">Lorem ipsum dolor sit amet, ac dis
+              arcu libero, pulvinar vitae lectus cursus.
+              Purus libero amet, at dui, tincidunt nunc vistibulum
+              in justo, a faucibus ipsum hendrerit semper ipsum ac.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div><br><br><br><br><br><br>
+    <div class="row text-center">
+      <div class="lorem-title-orange">LOREM</div>
+      <div class="ipsum-title-black">IPSUM</div>
+    </div><br><br>
+    <div class="row">
+      <div class="col-xs-6 col-sm-4 col-sm-offset-2">
+        <p class="btn-info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit cillum
+          dolore eu fugiat nulla pariatur.
+        </p>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-sm-offset-1">
+        <div class="button-div">
+          <button class="home-btn btn-2 open-modal" onclick="openModal()">Button</button>
+        </div>
+      </div>
+    </div><br><br><br>
+    <div class="row" id="percent-row">
+      <div class="col-xs-12 col-sm-10 col-sm-push-1">
+        <div class="col-xs-4 text-center percent-container">
+          <p class="home-percent">240%</p>
+          <p class="percent-text">Lorem ipsum dolor sit amet Lorem ipsum dolor ipsum dolor.</p>
+        </div>
+        <div class="col-xs-4 text-center percent-container">
+          <p class="home-percent">105%</p>
+          <p class="percent-text">Lorem ipsum dolor sit amet Lorem ipsum dolor ipsum dolor.</p>
+        </div>
+        <div class="col-xs-4 text-center percent-container">
+          <p class="home-percent">159%</p>
+          <p class="percent-text">Lorem ipsum dolor sit amet Lorem ipsum dolor ipsum dolor.</p>
+        </div>
+      </div>
+    </div><br><br><br><br><br>
+    <div class="row text-center">
+      <div class="lorem-title-orange">LOREM</div>
+      <div class="ipsum-title-black">IPSUM</div>
+    </div><br><br><br>
+    <div class="row" id="first-img-row">
+      <div class="col-xs-6 col-xs-push-3 col-sm-5 col-sm-push-0 col-sm-offset-1 img-paragraph">
+        <h3 class="img-text-title">Lorem ipsum dolor sit amet</h3>
+        <h4 class="img-text-subtitle">Lorem ipsum dolor sit amet lorem</h4><br>
+        <p class="img-descript">
+          Lorem ipsum dolor sit amet, ac dis arcu libero pulvinar vitae lectus
+          cursus. Purus libero amet, at dui, tincidunt nunc vestibulum in justo,
+          a faucibus ipsum henderit semper ipsum. Lorem ipsum dolor sit amet, ac dis arcu libero pulvinar vitae lectus
+          cursus. Purus libero amet, at dui, tincidunt nunc vestibulum in justo,
+          a faucibus ipsum henderit semper ipsum.
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <img src="assets/img1.jpg" alt="img1" class="img-responsive img1 img-with-text"/>
+      </div>
+    </div><br><br><br>
+    <div class="row" id="second-img-row">
+      <div class="col-xs-12 col-sm-6">
+        <img src="assets/img2.jpg" alt="img1" class="img-responsive img2 img-with-text"/>
+      </div>
+      <div class="col-xs-6 col-xs-push-3 col-sm-5 col-sm-push-0 img-paragraph">
+        <h3 class="img-text-title">Lorem ipsum dolor sit amet</h3>
+        <h4 class="img-text-subtitle">Lorem ipsum dolor sit amet lorem</h4><br>
+        <p class="img-descript">
+          Lorem ipsum dolor sit amet, ac dis arcu libero pulvinar vitae lectus
+          cursus. Purus libero amet, at dui, tincidunt nunc vestibulum in justo,
+          a faucibus ipsum henderit semper ipsum. Lorem ipsum dolor sit amet, ac dis arcu libero pulvinar vitae lectus
+          cursus. Purus libero amet, at dui, tincidunt nunc vestibulum in justo,
+          a faucibus ipsum henderit semper ipsum.
+        </p>
+      </div>
+    </div>
+    <br><br><br><br>
+    <div class="footer"></div>
+    <div class="modal" id="modalOne">
+      <div class="closes" onclick="document.getElementById('modalOne').style.display='none'">&times;</div>
+      <div class="row text-center">
+        <h3 class="lorem-ipsum-orange">LOREM IPSUM</h3>
+      </div><br><br>
+
+      <div class="row">
+        <div class="col-sm-6 col-sm-push-3">
+          <label class="modal-form-label name-label">Your Name</label>
+          <input type="text" max="50" min="0" class="form-input name-input">
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-sm-3 col-sm-offset-3">
+          <label class="modal-form-label email-label">Your Email</label>
+          <input type="text" max="70" min="0" class="form-input email-input">
+        </div>
+        <div class="col-sm-3">
+          <label class="modal-form-label phone-label">Phone Number</label>
+          <input type="text" max="70" min="0" class="form-input phone-input">
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-sm-6 col-sm-push-3">
+          <label class="modal-form-label message-label">Message</label>
+          <input type="text" max="750" min="0" class="form-input message-input">
+        </div>
+      </div><br><br>
+      <div class="row">
+        <div class="btn-container">
+          <button class="home-btn modal-btn">Button</button>
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="bundle.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="src/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="src/app.js"></script>
+
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  </body>
+</html>
